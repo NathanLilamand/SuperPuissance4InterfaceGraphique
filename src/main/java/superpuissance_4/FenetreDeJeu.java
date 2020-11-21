@@ -189,19 +189,19 @@ public class FenetreDeJeu extends javax.swing.JFrame {
                 btncol0ActionPerformed(evt);
             }
         });
-        getContentPane().add(btncol0, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 30, -1, -1));
+        getContentPane().add(btncol0, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 30, -1, -1));
 
         btncol1.setText("2");
-        getContentPane().add(btncol1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 30, -1, -1));
+        getContentPane().add(btncol1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 30, -1, -1));
 
         btncol2.setText("3");
-        getContentPane().add(btncol2, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 30, -1, -1));
+        getContentPane().add(btncol2, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 30, -1, -1));
 
         btncol3.setText("4");
-        getContentPane().add(btncol3, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 30, -1, -1));
+        getContentPane().add(btncol3, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 30, -1, -1));
 
         btncol4.setText("5");
-        getContentPane().add(btncol4, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 30, -1, -1));
+        getContentPane().add(btncol4, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 30, -1, -1));
 
         btncol5.setText("6");
         btncol5.addActionListener(new java.awt.event.ActionListener() {
@@ -209,7 +209,7 @@ public class FenetreDeJeu extends javax.swing.JFrame {
                 btncol5ActionPerformed(evt);
             }
         });
-        getContentPane().add(btncol5, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 30, -1, -1));
+        getContentPane().add(btncol5, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 30, -1, -1));
 
         btncol6.setText("7");
         btncol6.addActionListener(new java.awt.event.ActionListener() {
@@ -217,7 +217,7 @@ public class FenetreDeJeu extends javax.swing.JFrame {
                 btncol6ActionPerformed(evt);
             }
         });
-        getContentPane().add(btncol6, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 30, -1, -1));
+        getContentPane().add(btncol6, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 30, -1, -1));
 
         setBounds(0, 0, 1044, 702);
     }// </editor-fold>//GEN-END:initComponents
