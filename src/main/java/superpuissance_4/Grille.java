@@ -101,9 +101,7 @@ public class Grille {
         return tab[j][i];
     }
 
-    public void getSymbol(){
-
-    }
+   
     public void afficherGrilleSurConsoleTableau(){
         for (int i = 0; i < 7; i++) {
             for (int y = 0; y < 6; y++) {
@@ -212,4 +210,6 @@ public class Grille {
         }
         return false;  // si la grille est vide ou il n'y a aucun jeton alligné on return false
     }
+    
+    
 }
