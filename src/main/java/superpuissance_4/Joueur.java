@@ -15,6 +15,9 @@ public class Joueur {
         Nom = sonNom;
         Couleur = saCouleur;
     }
+    public Joueur(String sonNom) { //constructeur avec que le nom
+    Nom = sonNom;
+    }
 
     public void genererJeton() { // permet de generer tous les jetons avec la couleur defini
         for (int i = 0; i < 21; i++) {
@@ -51,5 +54,10 @@ public class Joueur {
         }
         return -1;
     }
-
+    
+    
+    void ajouterJeton(Jeton un_jeton){
+        ListeJeton[nombreJetonsRestant++] = un_jeton;
+    }
+    
 }
